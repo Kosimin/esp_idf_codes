@@ -1,0 +1,6 @@
+{
+  "idf.customExtraVars": {},
+  "idf.currentSetup": "/home/kosimin/.espressif/v6.1/esp-idf",
+  "cmake.sourceDirectory": "/home/kosimin/esp idf codes/1st_initial_test",
+  "idf.port": "/dev/ttyUSB0"
+}
