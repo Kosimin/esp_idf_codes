@@ -2,13 +2,12 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
-static const char *TAG = "MAIN";
 static int counter = 0;
 void my_first_task(void *pointer)
 {
     while(1)
     {
-        ESP_LOGI(TAG, "Hello from ESP32! Counter: %d", counter);
+        printf("Hello from ESP32! Counter: %d\n",counter);
         counter++;
         vTaskDelay(pdMS_TO_TICKS(1000));
     }
